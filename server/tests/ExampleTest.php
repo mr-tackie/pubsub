@@ -17,5 +17,19 @@ class TopicTest extends TestCase
 
         $this->post("/subscribe/$topic->id");
         $this->assertResponseStatus(422);
+
+        $this->post("/subscribe/$topic->id", ["url" => "http://localhost:9000/main"]);
+        $this->assertResponseOk();
     }
+
+    /**
+     * Test the ability to subscribe to a topic
+     *
+     * @return void
+     */
+    public function test_a_message_can_be_broadcast_to_a_topic()
+    {
+
+    }
+
 }
