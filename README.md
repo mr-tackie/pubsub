@@ -28,7 +28,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#endpoints">Endpoints</a></li>
   </ol>
 </details>
 
@@ -66,7 +66,7 @@ This project requires the following
    ```sh
    git clone https://github.com/mr-tackie/pubsub.git
    ```
-2. Copy `.env.example` to `.env` and update the following
+2. Copy `.env.example` to `.env` and in the `server` folder and update the following entries
    ```sh
    DB_HOST=
    DB_PORT=
