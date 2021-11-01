@@ -1,0 +1,14 @@
+{
+  "name": "pubsub-client",
+  "version": "1.0.0",
+  "description": "Client server for pubsub implementation",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nii Abonie Tackie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
